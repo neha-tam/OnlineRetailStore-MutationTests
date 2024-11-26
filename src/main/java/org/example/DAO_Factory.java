@@ -13,8 +13,8 @@ public class DAO_Factory{
 
 	static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
 	static final String DB_URL = "jdbc:mysql://localhost/retailStore?characterEncoding=latin1&useConfigs=maxPerformance";
-	static final String USER = "root";
-	static final String PASS = "sql_kt";   //change this to your sql password
+	static final String USER = "<username>";
+	static final String PASS = "<password>";   //change this to your sql password
 	Connection dbconnection = null;
 	DatabaseHelper databaseHelper = null;
 	
