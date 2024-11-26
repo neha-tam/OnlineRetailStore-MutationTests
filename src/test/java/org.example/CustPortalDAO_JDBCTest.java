@@ -30,7 +30,7 @@ public class CustPortalDAO_JDBCTest {
     public static void setup() throws SQLException {
         // Initialize the database connection
         dbConnection = DriverManager.getConnection(
-                "jdbc:mysql://localhost/retailStore", "root", "sql_kt");
+                "jdbc:mysql://localhost/retailStore", "<username>", "<password>");
         dbConnection.setAutoCommit(false); // Enable transactions for test isolation
         dbHelper = new DatabaseHelper(dbConnection);
         custPortalDAO = new CustPortalDAO_JDBC(dbConnection, dbHelper);
